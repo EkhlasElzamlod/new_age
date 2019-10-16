@@ -1,0 +1,119 @@
+Body{
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    position: absolute;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+/****** Start content page ******/
+
+.content-page{
+    height: 100%;
+    width: 100%;
+    background: url(../img/bg.jpg) no-repeat fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.content-page .overlay{
+    background: rgba(205, 149, 87, 0.7);
+    width: 100%;
+    height: 100%;
+}
+.row,
+.col-md-6
+{
+    height: 100%;
+}
+
+/*** Start content right ***/
+
+.content-page .content-right{
+    background: rgba(0,46,102,.8);
+    height: 100%;
+    overflow: hidden;
+    margin: 0;
+    -webkit-clip-path: polygon(0 0, 100% 0, 85% 100%, 0% 100%);
+    clip-path: polygon(0 0, 100% 0, 85% 100%, 0% 100%);
+    padding: 25% 70px;
+}
+.content-page .content-right h1{
+    color: #fff;
+    font-family: 'Merriweather', serif;
+    text-transform: capitalize;
+    font-size: 55px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.content-page .content-right p{
+    color: #fff;
+    font-size: 21px;
+    padding: 0px 100px 0px 0px;
+    margin-bottom: 50px;
+    
+}
+.content-page .content-right p span{
+    font-weight: bold;
+}
+.form-group{
+    display: inline;
+}
+.content-page .content-right input{
+    display: inline-block;
+    border-radius: 5px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    padding: 27px;;
+    width: 50%;
+    font-size: 17px;
+}
+.content-page .content-right button{
+    border: 0;
+    background: #cd9557;
+    margin-left: -3px;
+    padding: 19px;
+    border-radius: 5px;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    font-size: 13px;
+    color: #fff;
+    font-weight: bold;
+    letter-spacing: 2px;
+    vertical-align: middle;
+    margin-top: -5px;
+    text-transform: uppercase;
+}
+
+/*** Start content left ***/
+
+.content-page .content-left{
+    
+}
+.content-page .content-left .social-media{
+    
+}
+.content-page .content-left .social-media ul{
+    padding: 0px;
+}
+.content-page .content-left .social-media ul li{
+    list-style-type: none;
+}
+.content-page .content-left .social-media ul li a{
+    
+}
+.content-page .content-left .social-media ul li a i{
+    
+}
+
+/****** End content page ******/
+
+
+
+
+
+
+
+
+
